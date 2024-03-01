@@ -1,4 +1,5 @@
-from langchain import LLM
+#from langchain import LLM
+from langchain.llms import LLM
 
 # Carrega o modelo de linguagem
 llm = LLM("gpt-3")
